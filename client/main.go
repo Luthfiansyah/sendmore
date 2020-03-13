@@ -36,13 +36,13 @@ func serviceUser() model.UsersClient {
 func main() {
 	user1 := model.User{
 		Id:       "n001",
-		Name:     "Noval Agung",
+		Name:     "Reza",
 		Password: "kw8d hl12/3m,a",
 		Gender:   model.UserGender(model.UserGender_value["MALE"]),
 	}
 	user2 := model.User{
 		Id:       "n002",
-		Name:     "Nabila Rozan",
+		Name:     "Luthfiansyah",
 		Password: "PasswordTralala",
 		Gender:   model.UserGender(model.UserGender_value["FEMALE"]),
 	}
